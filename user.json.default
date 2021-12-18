@@ -1,0 +1,12 @@
+{
+  "user": {
+    "username": "",
+    "password": ""
+  },
+  "userDetails": {
+    "username": "",
+    "firstName": "",
+    "lastName": "",
+    "email": ""
+  }
+}
