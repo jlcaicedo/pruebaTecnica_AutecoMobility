@@ -26,6 +26,6 @@ Y listo, el primero comando es para correr la app y el segundo para correrla en 
 # Files
 
 Aqui en GItHub se tiene acceso al **Release v1.0** para **Sistema Operativo Android** o en este enlace para descargar directamente a su movil **Android**
-**[Prueba Tecnica Auteco Mobility](https://github.com/jlcaicedo/pruebaTecnica_AutecoMobility/releases/tag/v1.0)**
+**[Prueba Tecnica Auteco Mobility](https://github.com/jlcaicedo/pruebaTecnica_AutecoMobility/releases/tag/v1.0)** o se puede usar desde la app de **[EXPO GO](exp://exp.host/@jlcaicedo/PruebaTecnica_autecoMobility)**
 
 Infortunadamente los **Sistemas Operativos iOS** requieren una licencia que tiene un costo de **USD$99**, por lo tanto, no se tiene esta versión para ser usada en un dispositivo **Apple**, pero,  a través del **emulador** en un Computador con **Sistema Operativo MacOS** se puede apreciar.
