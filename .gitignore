@@ -16,4 +16,4 @@ yarn.lock
 
 .idea/
 .vscode/
-user.json
+.vscode-test/

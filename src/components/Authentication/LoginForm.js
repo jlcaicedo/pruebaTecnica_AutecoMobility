@@ -4,7 +4,7 @@ import {useFormik} from 'formik';
 import * as Yup from 'yup';
 import Styles from "../../styles/styles"
 import Logo from '../../assets/themoviedb_logo.svg'
-import {user, userDetails} from '../../../user.json'
+import {user, userDetails} from '../../services/user.json'
 import UseAuth from '../../hooks/UseAuth'
 
 const LoginForm = () => {

@@ -1,8 +1,8 @@
-import {API_KEY, API_URL} from '@env'
+import { API } from '../services/user.json'
 
 export async function getMoviesAPI(nextUrl) {
     try {
-        const url = `${API_URL}/popular?api_key=${API_KEY}&language=en-US&offset=20&page=${nextUrl}`
+        const url = `${API.URL}/popular?api_key=${API.KEY}&language=en-US&offset=20&page=${nextUrl}`
         const response = await fetch(url)
         return await response.json()
     } catch (e) {
@@ -12,7 +12,7 @@ export async function getMoviesAPI(nextUrl) {
 
 export async function getMovieDetailsAPI(id){
     try {
-        const url = `${API_URL}/${id}?api_key=${API_KEY}&language=en-US`
+        const url = `${API.URL}/${id}?api_key=${API.KEY}&language=en-US`
         const response = await fetch(url)
         return await response.json()
     } catch (e) {
@@ -22,7 +22,7 @@ export async function getMovieDetailsAPI(id){
 
 export async function getMovieReviewsAPI(id, page){
     try {
-        const url = `${API_URL}/${id}/reviews?api_key=${API_KEY}&language=en-US&page=${page}`
+        const url = `${API.URL}/${id}/reviews?api_key=${API.KEY}&language=en-US&page=${page}`
         const response = await fetch(url)
         return await response.json()
     } catch (e) {

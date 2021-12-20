@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import {includes, pull} from 'lodash'
-import {FAVORITE_STORAGE} from '@env'
-
+import { API } from '../services/user.json'
+const { FAVORITE_STORAGE } = API
 export async function getMovieFavoriteAPI() {
     try {
         const response = await AsyncStorage.getItem(FAVORITE_STORAGE)
