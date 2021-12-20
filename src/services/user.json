@@ -1,0 +1,17 @@
+{
+  "API": {
+    "URL": "https://api.themoviedb.org/3/movie",
+    "KEY": "882e1ec13cbb9e02718bdba312273291",
+    "FAVORITE_STORAGE": "favorite"
+  },
+  "user": {
+    "username": "prueba",
+    "password": "prueba"
+  },
+  "userDetails": {
+    "username": "prueba",
+    "firstName": "Prueba",
+    "lastName": "Tecnica",
+    "email": "pruebatecnica@domain.com"
+  }
+}
